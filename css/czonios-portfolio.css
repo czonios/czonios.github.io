@@ -240,9 +240,8 @@ a:hover {
 
 .img-portfolio {
   margin: 0 auto;
-  width: 30vw;
-  height: 20vh;
-  max-width: 250px;
+  width: 32vw;
+  height: 24vh;
   overflow: hidden;
 }
 
@@ -332,8 +331,8 @@ i.scroll:hover {
   }
 
   .img-portfolio {
-    max-width: 150px;
-    max-height: 100px;
+    width: 24vw;
+    height: 18vh;
     
   }
 
