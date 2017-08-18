@@ -188,7 +188,7 @@ a:hover {
 
 .services {
   background: #585752;/*#2a2f2f;/*#334455;*/
-  padding: 50px 0;
+  padding: 2.5% 0;
   color: #d5d0ca;
 }
 
@@ -225,7 +225,7 @@ a:hover {
 /* Portfolio */
 
 .portfolio {
-  padding: 50px 0; 
+  padding: 2.5% 0; 
   background-color: #d5d0ca;
   color: #585752; 
 }
@@ -240,21 +240,18 @@ a:hover {
 
 .img-portfolio {
   margin: 0 auto;
-  position: relative;
-  width: 200px;
-  height: 150px;
+  width: 30vw;
+  height: 20vh;
+  max-width: 250px;
   overflow: hidden;
 }
-
-
-
 
 /* Call to Action */
 
 .call-to-action {
   background: #585752;
   color: #d5d0ca;
-  padding: 50px 0;
+  padding: 2.5% 0;
 }
 
 .call-to-action .btn {
@@ -293,12 +290,58 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-	background: url(/img/bg/header-bg-mobile.jpg) no-repeat center bottom scroll;
+	background: url(/img/bg/header-bg-mobile.jpg) no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+  }
+    
+  .icon-social {
+    max-width: 33px;
+    height: auto;
+  }
+    
+  .services {
+    background: #585752;/*#2a2f2f;/*#334455;*/
+    padding: 20px 0;
+    color: #d5d0ca;
+  }
+
+  .service-item {
+    margin-bottom: 10px;
+  }
+    
+  .service-item h4 {
+      font-size: 1.2em;
+  }
+
+  .service-icon {
+    font-size: 24px;
+    width: 80px;
+    height: 80px;
+    line-height: 76px;
+  }
+    
+  .portfolio {
+    padding: 20px 0; 
+  }
+
+  .portfolio-item {
+    margin-bottom: 10px;
+  }
+
+  .img-portfolio {
+    max-width: 150px;
+    max-height: 100px;
+    
   }
 
   .callout {
-	background: url(/img/bg/quote-bg-mobile.jpg) no-repeat center bottom scroll;
+	background: url(/img/bg/quote-bg-mobile.jpg) no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
   
