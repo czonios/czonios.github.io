@@ -179,7 +179,7 @@ a:hover {
 /* Intro */
 
 .intro {
-  padding: 50px 0;
+  padding: 2.5% 0;
   background-color: #d5d0ca;
   color: #585752;
 }
@@ -287,6 +287,21 @@ i.scroll:hover {
 /* Responsive */
 
 @media (max-width: 768px) {
+    
+  body {
+      max-width: 100%;
+  }
+    
+  .btn-primary {
+    color: #fff;
+    background: none; 
+    border-color: none;
+  }
+    
+  .icon-menu {
+    max-width: 30px;
+    height: auto;
+  }
 	
   .header {
 	background: url(/img/bg/header-bg-mobile.jpg) no-repeat center bottom fixed;
@@ -294,6 +309,16 @@ i.scroll:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    max-width: 100%;
+  }
+    
+  .vert-text h1 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+
+  .vert-text h3 {
+    font-size: 1.5em;
   }
     
   .icon-social {
