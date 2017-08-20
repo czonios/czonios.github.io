@@ -268,22 +268,6 @@ footer {
   color: #585752;
 }
 
-.top-scroll {
-  margin-top: 50px;
-}
-
-.top-scroll a {
-  text-decoration: none;
-  color: inherit;
-}
-
-i.scroll {
-  color: #333333;
-}
-
-i.scroll:hover {
-  color: #0a5175;
-}
 /* Responsive */
 
 @media (max-width: 768px) {
