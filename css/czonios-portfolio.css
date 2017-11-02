@@ -196,8 +196,8 @@ a:hover {
 }
 
 .text-header .service-item .service-icon {
-  background: darkgrey;
-  border: 3px solid #ffeedd;
+  background: darkgrey !important;
+  border: 3px solid #ffeedd !important;
 }
 
 .service-icon {
