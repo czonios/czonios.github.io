@@ -66,9 +66,8 @@ a:hover {
   margin-right: -250px;
   right: 0;
   width: 250px;
-/*   background: #585752; */
-  background: rgb(42, 47, 47); /* for IE */
-  background: rgba(42, 47, 47,0.66);
+  background: #585752;
+  /* background: rgb(58, 66, 66); for IE */
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -239,6 +238,8 @@ a:hover {
 }
 
 .img-portfolio {
+  max-width: 320px;
+  max-height: 240px;
   margin: 0 auto;
   width: 32vw;
   height: 24vh;
