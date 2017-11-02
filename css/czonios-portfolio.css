@@ -168,7 +168,7 @@ a:hover {
   background: rgb(42, 47, 47); /* for IE */
   background: rgba(42, 47, 47,0.66);
   -moz-border-radius: 6px;
- border-radius: 6px;
+  border-radius: 6px;
 }
 
 .header-hr {
@@ -193,6 +193,11 @@ a:hover {
 
 .service-item {
   margin-bottom: 15px;
+}
+
+.text-header .service-item .service-icon {
+  background: darkgrey;
+  border: 3px solid #ffeedd;
 }
 
 .service-icon {
