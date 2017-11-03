@@ -8,6 +8,28 @@ body {
   width: 100%;
 }
 
+a h1{
+  text-decoration: none;
+  color:  #ffeedd;
+}
+
+a h1:hover {
+  text-decoration: none;
+}
+
+a h1:active {
+  text-decoration: none;
+}
+
+a h1:focus {
+  text-decoration: none;
+}
+
+a h1:visited {
+  text-decoration: none;
+  outline-color: none;
+}
+
 a {
   color:  #768765;
 }
