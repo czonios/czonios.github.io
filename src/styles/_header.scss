@@ -24,17 +24,17 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   .site-title {
-    font-size: 50px;
+    font-size: 36px;
     display: block;
     line-height: 1;
     color: #FFF;
     @media only screen and (min-width:$cut){
       margin: 0;
-      font-size: 100px;
+      font-size: 72px;
     }
   }
   .site-description {
-    font-size: 20px;
+    font-size: 18px;
     display: block;
     line-height: 1;
     color: #FFF;

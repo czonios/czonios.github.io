@@ -4,3 +4,7 @@ _site/
 build\.sh
 
 serve\.sh
+
+node_modules
+
+.sass-cache

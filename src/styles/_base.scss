@@ -11,7 +11,7 @@ body {
 article, aside, figcaption, figure, footer, header, nav, section {
     display: block;
 }
-h1, h2, h3, h4, stong {
+h1, h2, h3, h4, strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
@@ -41,4 +41,7 @@ a img {
 }
 sup, sub {
     line-height: 0;
+}
+img {
+	width: 9px;
 }
