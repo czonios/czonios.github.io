@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://cdn.jsdelivr.net https://polyfill.io; style-src 'self' https://fonts.googleapis.com cdn.jsdelivr.net; img-src 'self' cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com cdn.jsdelivr.net; connect-src 'self' cdn.jsdelivr.net; media-src 'self' cdn.jsdelivr.net; object-src 'self' cdn.jsdelivr.net; child-src 'self'cdn.jsdelivr.net; form-action 'none'; base-uri 'self'" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://polyfill.io; style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com cdn.jsdelivr.net; img-src 'self' cdnjs.cloudflare.com cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com cdn.jsdelivr.net cdnjs.cloudflare.com; connect-src 'self' cdn.jsdelivr.net cdnjs.cloudflare.com; media-src 'self' cdn.jsdelivr.net cdnjs.cloudflare.com; object-src 'self' cdn.jsdelivr.net cdnjs.cloudflare.com; child-src 'self'cdn.jsdelivr.net cdnjs.cloudflare.com; form-action 'none'; base-uri 'self'" />
 <meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
 <meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
 
@@ -18,12 +18,22 @@
     {%- include footer.html -%}
 
     {% if page.math %}
-    <script src="//polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { 
+          equationNumbers: { autoNumber: "AMS" }
+        }
+      });
+    </script>
+    <script type="text/javascript" async 
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_SVG">
+    </script>
+    <!-- <script src="//polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script
         id="MathJax-script"
         async
         src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    ></script>
+    ></script> -->
     {% endif %}
 
     </div>
