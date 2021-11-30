@@ -5,7 +5,7 @@ header_pages:
 
 footer: 'follow me on <a href="https://github.com/czonios">GitHub</a>'
 
-style: dark # dark (default) or light
+style: dark # dark (default), light or hacker
 listen_for_clients_preferred_style: false # true or false (default)
 
 gem "github-pages", "219", group: :jekyll_plugins
