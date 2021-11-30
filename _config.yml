@@ -26,7 +26,7 @@ siteurl: https://czonios.github.io
 baseurl: "/"
 domain_name: "https://czonios.github.io"
 gems:
-#   - jekyll-paginate
+    #   - jekyll-paginate
     - jekyll-github-metadata
 
 # Details for the RSS feed generator
@@ -35,12 +35,12 @@ author: "Christos Zonios"
 lsi: false
 safe: true
 source: /
-incremental: false
-highlighter: rouge
-gist:
-    noscript: false
-markdown: kramdown
-#mathjax: true
-kramdown:
-#    math_engine: katex
-    syntax_highlighter: rouge
+# incremental: false
+# highlighter: rouge
+# gist:
+#     noscript: false
+# markdown: kramdown
+# #mathjax: true
+# kramdown:
+# #    math_engine: katex
+#     syntax_highlighter: rouge
