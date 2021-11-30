@@ -40,7 +40,7 @@ highlighter: rouge
 gist:
     noscript: false
 markdown: kramdown
-mathjax: true
+#mathjax: true
 kramdown:
-    math_engine: katex
+#    math_engine: katex
     syntax_highlighter: rouge
