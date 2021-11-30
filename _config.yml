@@ -1,16 +1,46 @@
-# Site settings
-title: Christos Zonios - Portfolio
-description: My portfolio page
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-url: "https://czonios.github.io"
+header_pages:
+    - index.md
+    - research.md
+    - blog.md
 
-# User settings
-username: Christos Zonios
-user_description: I am a React/Nodejs full stack engineer and Data Science & Engineering M.Sc. student in the Computer Science dept. of the University of Ioannina, Greece.<br/>I am really good at solving problems and learning new things.<br/><strong>I like the hands on approach</strong> - <em>I figure out what needs to be done, and I do it.</em><br/>Take a look through some of my <a class="link" href="#projects" data-scroll>projects</a>.<br/>Feel free to check out my <a target="_blank" href="https://github.com/czonios">Github</a>. You can always <a href="mailto:czonios@gmail.com">hit me up</a> if you have any questions.
-user_title: Full Stack Engineer & Data Scientist
+footer: 'follow me on <a href="https://github.com/czonios">GitHub</a>'
 
-# Google-analytics
-google-analytics:
-  id: ""
+style: dark # dark (default) or light
+listen_for_clients_preferred_style: false # true or false (default)
 
-exclude: ['package.json', 'src' , 'node_modules']
+gem "github-pages", "219", group: :jekyll_plugins
+
+plugins:
+    - jekyll-seo-tag
+
+name: "Christos Zonios | Portfolio"
+title: "Portfolio"
+description: "Get to know me and my research"
+meta_description: "Neuromorphic Computing, Deep Learning, IoT and Linux"
+google_analytics: UA-112579131-1
+
+# logo: "/assets/img/favicon.jpeg"
+#paginate: 15
+comments: false
+siteurl: https://czonios.github.io
+baseurl: "/"
+domain_name: "https://czonios.github.io"
+gems:
+#   - jekyll-paginate
+    - jekyll-github-metadata
+
+# Details for the RSS feed generator
+url: "https://czonios.github.io/blog"
+author: "Christos Zonios"
+lsi: false
+safe: true
+source: /
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
+markdown: kramdown
+mathjax: true
+kramdown:
+    math_engine: mathjax
+    syntax_highlighter: rouge
