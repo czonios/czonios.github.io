@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://polyfill.io; style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com cdn.jsdelivr.net; img-src 'self' cdnjs.cloudflare.com cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com cdn.jsdelivr.net cdnjs.cloudflare.com; connect-src 'self' cdn.jsdelivr.net cdnjs.cloudflare.com; media-src 'self' cdn.jsdelivr.net cdnjs.cloudflare.com; object-src 'self' cdn.jsdelivr.net cdnjs.cloudflare.com; child-src 'self'cdn.jsdelivr.net cdnjs.cloudflare.com; form-action 'none'; base-uri 'self'" />
-<meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
-<meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://polyfill.io; style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com cdn.jsdelivr.net; img-src 'self' cdnjs.cloudflare.com cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com cdn.jsdelivr.net cdnjs.cloudflare.com; connect-src 'self' cdn.jsdelivr.net cdnjs.cloudflare.com; media-src 'self' cdn.jsdelivr.net cdnjs.cloudflare.com; object-src 'self' cdn.jsdelivr.net cdnjs.cloudflare.com; child-src 'self'cdn.jsdelivr.net cdnjs.cloudflare.com; form-action 'none'; base-uri 'self'" /> -->
+    <!-- <meta http-equiv="X-XSS-Protection"  content="1;mode=block" always> -->
+    <!-- <meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin"> -->
 
-  {%- include head.html -%}
+    {%- include head.html -%}
 
-  <body>
-    <div class="container">
+    <body>
+        <div class="container">
+            {%- include header.html -%}
 
-      {%- include header.html -%}
+            <main>{{ content }}</main>
 
-    <main>
-      {{ content }}
-    </main>  
-
-    {%- include footer.html -%}
-<!-- 
+            {%- include footer.html -%}
+            <!-- 
     {% if page.math %}
     <script>
       MathJax = { 
@@ -34,7 +31,6 @@
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
     {% endif %} -->
-
-    </div>
-  </body>
+        </div>
+    </body>
 </html>
