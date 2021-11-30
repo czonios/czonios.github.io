@@ -42,5 +42,5 @@ gist:
 markdown: kramdown
 mathjax: true
 kramdown:
-    math_engine: mathjax
+    math_engine: katex
     syntax_highlighter: rouge
