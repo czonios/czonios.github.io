@@ -12,12 +12,16 @@ I am really good at solving problems and learning new things. I love FOSS, Linux
 
 ## Education
 
-`M.Sc Data and Systems Engineering`
+`PhD Security and Reliability of Neuromorphic Computing Systems`
+University of Ioannina, Ioannina, Greece
+In Progress (started Oct 2021)
+
+`MSc Data and Systems Engineering`
 Specialized in Data Science and Engineering
 University of Ioannina, Ioannina, Greece
 Oct 2021 -- GPA: 9.09/10
 
-`B.Sc. Computer Science`
+`BSc Computer Science`
 University of Ioannina, Ioannina, Greece
 Feb 2020 -- GPA: 7.1/10
 
@@ -35,7 +39,7 @@ This wacky-looking website (yes, it looks like this on purpose) will be used for
 I believe documentation is evil, though necessary, so I will try to keep everything short and to the point.
 
 I have split the content of this website into three parts:
-* [/about](/about) - A short bio
+* [/about](/) - A short bio (this page)
 * [/research](/research) - My scientific publications and complementary materials
 * [/blog](/blog) - guides and tutorials for various computer-related things, as well as explanations of other people's research
 
