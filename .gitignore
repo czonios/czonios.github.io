@@ -8,3 +8,7 @@ serve\.sh
 node_modules
 
 .sass-cache
+
+.bundle
+
+vendor

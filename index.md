@@ -6,9 +6,9 @@ permalink: /
 
 # ABOUT ME
 
-My name is Christos Zonios, and I am a PhD candidate at the University of Ioannina, Greece. 
+My name is Christos Zonios, and I am a PhD candidate at the University of Ioannina, Greece.
 My [research](/research) interests include Neuromorphic Computing, Deep Learning, Smart IoT Systems and Language Modelling.
-I am really good at solving problems and learning new things. I love FOSS, Linux, playing music, and hiking.
+I am really good at solving problems and learning new things. I love hacking stuff, FOSS, trail running, playing music, and mountaineering.
 
 ## Education
 
@@ -36,10 +36,10 @@ Developed a property management system for hotels and other properties, [Hoteliz
 
 # ABOUT THIS WEBSITE
 
-As stated [above](#experience), I used to be a React/Nodejs dev. By understanding the inner workings of the fancy, eye-candy front-end of the modern web, I gained a unique appreciation (maybe nostalgia played a part) for the simple and minimalistic feel of old-school text-and-hyperlinks websites, which is why this site looks like it does. Plus, I don't run any code in your browser.
+As stated [above](#experience), I used to be a React/Nodejs dev. However I don't really like the eye-candy front-end of the modern web, so I went for the simple and minimalistic feel of old-school text-and-hyperlinks websites. Plus, I don't run any code in your browser.
 
-This website will mostly be used for posting guides, tutorials and explanations, primarily to share knowledge but also for my own archival/documentation purposes. 
-I believe documentation is evil, though necessary, so I will try to keep everything short and to the point.
+This website will mostly be used as a portfolio but I occassionally post guides, tutorials and explanations, primarily to share knowledge but also for my own archival/documentation purposes.
+I believe documentation is evil so I will try to keep everything short and to the point.
 
 I have split the content of this website into three parts:
 * [/about](/) - A short bio (this page)
