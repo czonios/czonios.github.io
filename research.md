@@ -8,7 +8,7 @@ permalink: /research/
 
 View my [Google Scholar profile](https://scholar.google.com/citations?user=tmjW7pcAAAAJ)
 
-[REVOLVER: A Zero-Step Execution Emulation Framework for Mitigating Power Side-Channel Attacks On ARM64](https://orion.polito.it/iolts/proceedings/)
+[REVOLVER: A Zero-Step Execution Emulation Framework for Mitigating Power Side-Channel Attacks On ARM64](https://ieeexplore.ieee.org/abstract/document/9897425)
 Proceedings of the 28th IEEE International Symposium on On-Line Testing and Robust System Design (IOLTS)
 2022
 
