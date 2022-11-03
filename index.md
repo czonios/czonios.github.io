@@ -7,44 +7,44 @@ permalink: /
 # ABOUT ME
 
 My name is Christos Zonios, and I am a PhD candidate at the University of Ioannina, Greece.
-My [research](/research) interests include Neuromorphic Computing, Deep Learning, Smart IoT Systems and Language Modelling.
-I am really good at solving problems and learning new things. I love hacking stuff, FOSS, trail running, playing music, and mountaineering.
+My [research](/research) interests include Deep Learning, System Security and Reliability, Neuromorphic Computing, Smart IoT Systems, and Music Language Modelling.
+I am really good at solving problems and learning new things. I love researching, creating and hacking stuff, bouldering/climbing, trail running and playing music.
 
-## Education
+## EDUCATION
 
 `PhD Security and Reliability of Neuromorphic Computing Systems`
-University of Ioannina, Ioannina, Greece
+University of Ioannina, Greece
 In Progress (started Oct 2021)
 
 `MSc Data and Systems Engineering`
 Specialized in Data Science and Engineering
-University of Ioannina, Ioannina, Greece
-Oct 2021 -- GPA: 9.09/10
+University of Ioannina, Greece
+Oct 2021 -- GPA: 9.09/10 (Excellent)
 
 `BSc Computer Science`
-University of Ioannina, Ioannina, Greece
-Feb 2020 -- GPA: 7.1/10
+University of Ioannina, Greece
+Feb 2020 -- GPA: 7.1/10 (Very Good)
 
-## Experience
+## EXPERIENCE
 
 `Full Stack Engineer`
-Jul 2018 - Sep 2020
+Dec 2017 - Sep 2020
 Wapp/Hotelizer, Ioannina, Greece
-Developed a property management system for hotels and other properties, [Hotelizer](https://hotelizer.net), in React/Nodejs/MySQL.
+Developed a property management system for hotels and other hospitality, food service and rental properties, [Hotelizer](https://hotelizer.net), in React/Nodejs/MySQL.
 
 ---
 
 # ABOUT THIS WEBSITE
 
-As stated [above](#experience), I used to be a React/Nodejs dev. However I don't really like the eye-candy front-end of the modern web, so I went for the simple and minimalistic feel of old-school text-and-hyperlinks websites. Plus, I don't run any code in your browser.
+I used to be a React/Nodejs dev, but I don't really like the front-end of the modern web, so I went for the simple and minimalistic feel of old-school text-and-hyperlinks websites. Plus, I don't run any code in your browser.
 
-This website will mostly be used as a portfolio but I occassionally post guides, tutorials and explanations, primarily to share knowledge but also for my own archival/documentation purposes.
+This website will mostly be used as a portfolio and a place to gather all my scientific publications but I occassionally post guides, tutorials and explanations, primarily to share knowledge but also for my own archival/documentation purposes.
 I believe documentation is evil so I will try to keep everything short and to the point.
 
 I have split the content of this website into three parts:
 * [/about](/) - A short bio (this page)
 * [/research](/research) - My scientific publications and complementary materials
-* [/blog](/blog) - guides and tutorials for various computer-related things, as well as explanations of other people's research
+* [/blog](/blog) - guides, tutorials and explanations
 
 <!--
 a given wire happens to be carrying \\(\lvert 0\rangle \\).
