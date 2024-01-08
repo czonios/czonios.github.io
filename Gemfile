@@ -14,3 +14,5 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-github-metadata"
 end
+
+gem "webrick", "~> 1.8"

@@ -4,9 +4,13 @@ title: /research
 permalink: /research/
 ---
 
-# RESEARCH
+## RESEARCH
 
 View my [Google Scholar profile](https://scholar.google.com/citations?user=tmjW7pcAAAAJ)
+
+<!-- [Embedded Platforms for Trusted Edge Computing towards Quality Assurance along the Supply Chain]()
+Proceedings of the 8th South-East Europe Design Automation, Computer Engineering, Computer Networks and Social Media Conference (SEEDA-CECNSM)
+2023 -->
 
 [REVOLVER: A Zero-Step Execution Emulation Framework for Mitigating Power Side-Channel Attacks On ARM64](https://ieeexplore.ieee.org/abstract/document/9897425)
 Proceedings of the 28th IEEE International Symposium on On-Line Testing and Robust System Design (IOLTS)

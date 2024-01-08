@@ -2,20 +2,17 @@
 
 [czonios.github.io](https://czonios.github.io)
 
-### Theme
+## Theme
 
-I am using the [Console Jekyll theme](https://github.com/b2a3e8/jekyll-theme-console), but have modified a few things colors.
+I am using the [Console Jekyll theme](https://github.com/b2a3e8/jekyll-theme-console), but have modified a few things such as colors.
 
-### Dependencies
-```sh
-# install ruby
-sudo apt update
-sudo apt install ruby ruby-dev
-# install bundler
-sudo gem install bundler
-```
+## Install and Use
 
-### Locally view the website before pushing
+For the theme modifications, I think I've only changed the file `_sass/_dark.scss`. I've also added `_layouts/research` for my purposes.
+
+Install requirements: [https://jekyllrb.com/docs/installation/#requirements](https://jekyllrb.com/docs/installation/#requirements)
+
+Build and run locally: [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
 
 ```sh
 # install gems

@@ -4,4 +4,4 @@ title: /blog
 permalink: /blog/
 ---
 
-# BLOG
+## BLOG
